@@ -24,7 +24,7 @@
     <Button
         android:id="@+id/qrbtn"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="65dp"
         android:backgroundTint="@color/teal_700"
         android:text="Tap to Scan Your Card"
         android:textColor="#FAFAFA"

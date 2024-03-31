@@ -28,6 +28,7 @@ public class QRCodeActivity extends AppCompatActivity  {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_qrcode);
+        getSupportActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.teal_700)));
 
         qrbtn=findViewById(R.id.qrbtn);
        // idText=findViewById(R.id.idText);
